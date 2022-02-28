@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+	int a;
+	char operation;
+	printf("enter a number from 1 to 4");
+	scanf("%d",&a);
+switch (operation)
+	{case 1:
+		printf("Pizza\n prize-Rs 120\n");
+		break;
+	case 2:
+		printf("Burger\n price-Rs 105\n");
+		break;
+	case 3:
+		printf("Pasta\n price-Rs 180");
+		break;
+	case 4:
+		printf("French Fries\n price-Rs 99\n");
+		break;
+	default:
+		printf("error");
+		break;
+	}
+	
+}
